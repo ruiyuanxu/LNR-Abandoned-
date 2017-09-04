@@ -1,0 +1,15 @@
+﻿{
+  "configs": [
+    {
+      "remarks": "bsaic",
+      "bg_color": "#FFE7BA",
+      "ttf-color": "#474747",
+      "ttf-source": "Installed:Concolas",
+      "wrap-width": "70",
+      // Chinese or Japanese Character: 2 in width
+      "txtout-width": "70"
+      // percentage
+
+    }
+  ]
+}
