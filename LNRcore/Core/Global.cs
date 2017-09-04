@@ -28,6 +28,7 @@ namespace Core
         {
             ///bullshit  I still have .Net Core1.0 on this computer
             ///fuck this shit!!!!!
+            string dest = Environment.
         }
 
 		public static FileInfo global_core_cfg()

@@ -5,18 +5,18 @@
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   IgnorableNamespaces="uap mp">
 
-  <Identity Name="d3e8fa92-fca8-4e1c-8d85-999b0d062e44"
-            Publisher="CN=瑞元"
+  <Identity Name="4066d887-b8dd-4ab3-8af0-ce5a697919c3"
+            Publisher="CN=34320"
             Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="d3e8fa92-fca8-4e1c-8d85-999b0d062e44" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="4066d887-b8dd-4ab3-8af0-ce5a697919c3" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>UnitTest-LineGlobalandBooks</DisplayName>
-    <PublisherDisplayName>瑞元</PublisherDisplayName>
+    <DisplayName>UnitCoreTest</DisplayName>
+    <PublisherDisplayName>34320</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
-  
+
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
   </Dependencies>
@@ -25,14 +25,14 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="vstest.executionengine.universal.App" 
+    <Application Id="vstest.executionengine.universal.App"
         Executable="$targetnametoken$.exe"
-        EntryPoint="UnitTest_LineGlobalandBooks.App">
+        EntryPoint="UnitCoreTest.App">
       <uap:VisualElements
-        DisplayName="UnitTest-LineGlobalandBooks"
+        DisplayName="UnitCoreTest"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="UnitTest-LineGlobalandBooks"
+        Description="UnitCoreTest"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
@@ -40,6 +40,6 @@
     </Application>
   </Applications>
   <Capabilities>
-    <Capability Name="internetClient" />
-  </Capabilities> 
+    <Capability Name="internetClientServer" />
+  </Capabilities>
 </Package>
